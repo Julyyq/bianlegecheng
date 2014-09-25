@@ -1,0 +1,37 @@
+﻿*{
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.waterfall-container {
+  padding: 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+.waterfall-container li {
+  float: left;
+  width: 240px;
+  margin-right: 10px;
+}
+.img-item {
+  padding: 5px;
+  border: 1px solid #eee;
+}
+.img-item img {
+  width: 230px;
+}
+.img-item p {
+  padding-left: 10px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
