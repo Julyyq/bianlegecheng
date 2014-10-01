@@ -1,0 +1,30 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+#fullpage {
+  width: 100%;
+  height: 100%;
+}
+#fullpage > div {
+  width: 100%;
+  height: 20%;
+}
+.page1 {
+  background-color: lightblue;
+}
+.page2 {
+  background-color: lightgreen;
+}
+.page3 {
+  background-color: lightgray;
+}
+.page4 {
+  background-color: yellow;
+}
+.page5 {
+  background-color: orange;
+}
