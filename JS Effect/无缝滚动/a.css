@@ -49,3 +49,24 @@ li {
 #slider .next i {
   background-position: -150px -310px;
 }
+.dots {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  width: 135px;
+  overflow: hidden;
+  zoom: 1;
+}
+.dots > li {
+  float: left;
+  margin-right: 11px;
+}
+.dots > li a {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(img/dot.png) no-repeat 0 0;
+}
+.dots > li a.cur {
+  background-position: -27px 0;
+}
